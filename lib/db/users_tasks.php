@@ -1,6 +1,6 @@
 <?php
 
-class users_tasks extends tasks {
+class users_tasks extends model {
 	public $id;
 	public $task_id;
 	public $user_id;
