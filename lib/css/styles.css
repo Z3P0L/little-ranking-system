@@ -6,6 +6,10 @@
     --font: sans-serif, serif;
 }
 
+body {
+    font-family: var(--font);
+}
+
 figure {
     padding: 0;
     margin: 0;
@@ -47,5 +51,41 @@ ul li a {
     color: var(--border-color);
     padding: 10px;
     border-radius: 4px;
+    background-color: var(--primary-color);
+}
+
+main table {
+    min-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+table thead {
+    color: var(--border-color);
+    background-color: var(--primary-color);
+}
+
+form {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.control {
+    display: flex;
+    flex-direction: column;
+}
+
+.control label {
+    margin: 5px 0;
+}
+
+form button {
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    cursor: pointer;
+    color: var(--border-color);
     background-color: var(--primary-color);
 }
