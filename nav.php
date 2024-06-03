@@ -5,6 +5,9 @@
     		</a>
     	</figure>
     	<ul>
+			<li>
+				<a href="/create_user.php">Usuarios</a>
+			</li>
     		<li>
     			<a href="/create_task.php">Tareas</a>
     		</li>
